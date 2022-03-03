@@ -15,7 +15,16 @@ for(let i=0; i<muchos_peces.length; i++) {
     console.log("Pez siguiente: " + siguiente_pez)
 
     // Modifica SOLAMENTE a partir de aquí
-}
+    if (siguiente_pez == "Nemo") {
+        pez = "Soy Nemo!"
+    }
+    else {
+        pez = "No soy Nemo!"
+    }
+
+    console.log(" ", pez);
+}   
+
 
 
 
