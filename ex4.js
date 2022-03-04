@@ -12,6 +12,7 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Porque empieza a contar desde atrás y estamos llamando a Estrella con letra minuscula.
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")

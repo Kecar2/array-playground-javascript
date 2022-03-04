@@ -16,6 +16,7 @@
 
  /**
   * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * Porque esta cogiendo menor o igual a muchos peces y tendria que ser menor que muchos peces.
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
